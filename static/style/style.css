@@ -1,0 +1,173 @@
+/*Eleccion de un color lila pastel para la pagina*/
+body {
+background-color:#dac9df;
+}
+/*Abarca todo lo que esta en nuestro menu de navegacion*/
+.contenido_titulo{
+    border: 2px solid rgb(209, 208, 208);
+    background-image:url(https://img.freepik.com/vector-gratis/diseno-patron-pow-colorido-lindo-gatito_1017-14710.jpg);
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    padding: 2px 0px 20px 20px;
+}
+/*mensaje final e imagen*/
+.contenido_gatito {
+  border: 2px solid rgb(209, 208, 208);
+  background-color: white;
+  margin-left:150px;
+  margin-right: 150px;
+  margin-top: 50px;
+  padding: 2px 0px 20px 20px;
+}
+
+/*estilo de la imagen de gato*/
+#el_gatito {
+  display: flex;
+  margin: 0px 460px 0px 460px;
+  width:100px;
+  height:100px;
+}
+
+ /*Titulo de nuestra imagen de gatito*/
+h3{
+  font-family:'Courier New', Courier, monospace;
+}
+
+/*titulo general de la pagina, nombre que aparecerá en la pstaña, esta dentro del menu de navegacion*/
+h1{
+  font-family:'Courier New', Courier, monospace;
+}
+
+/*subtitulo y concepto de la pagina, está dentro del menu de navegacion*/
+p {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Abarca el sub titulo del menu de navegacion*/
+#contenido_titulo_left{
+    width: 400px;
+    display:inline-block;
+}
+
+/*menú exacto de navegacion con opciones de pagina */
+#contenido_titulo_right{ 
+    display:inline-block;
+    text-align: right;
+  float: right;
+  padding: 80px 30px 30px 30px;
+}
+
+
+#titulo_teyezo{
+    margin-bottom: 0px;
+    margin-top: 40px;   
+}
+.parrafo_titulo{
+    margin-top: 6px;
+
+}
+.link_titulo{
+    margin-left: 15px;
+}
+.sub_titulo{
+   margin-left: 150px;
+    margin-right: 150px;
+}
+/*Bloque para ingresar la palabra a cifrar*/
+#buscador{
+  margin-top: 70px;
+  font-size: 1.6rem;
+  display: flex;
+  /*Hace que todo este en horizontal*/
+  flex-direction: row;
+  /*separacion entre palabras*/
+  gap: 30px;
+  justify-content: space-around;
+}
+
+#frase_buscador, #contraseña{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#input_palabraInicial, #input_nuevaContraseña, #input_resultado{
+  width: 500px;
+  height: 70px;
+}
+
+ #button_buscar, #button_desencriptar{
+  margin-top: 20px;
+  width: 120px;
+  height: 60px;
+  font-size: 1.2rem;
+   border: 0px none;
+  border-radius: 20px;
+   background-color: #ca6dca;
+  color: white;
+   /*Expecifica si recortar el contenido,hidden esconde el contenido que no entra en el espacio*/
+  overflow: hidden;
+   transition: 0.2s;
+}
+/*Efecto fluorescentefluorescente en los botones*/
+#button_buscar:hover{
+  background: #a945c7;
+  box-shadow: 0 0 10px #a945c7, 0  0 40px #a945c7, 0 0 80px #a945c7;
+}
+#button_desencriptar:hover{
+  background: #a945c7;
+  box-shadow: 0 0 10px #a945c7, 0  0 40px #a945c7, 0 0 80px #a945c7;
+}
+#input_palabraInicial{
+
+}
+.abajo{
+  /*Da la capacidad al elemento de alterar sus dimensiones y llenar el espacio disponible*/
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around
+ 
+}
+.propaganda{
+  width: 500px;
+  height: 200px;
+  padding: 30px 40px 20px 70px;
+  
+}
+.opciones{
+ display: inline-block;
+  margin-top: 30px;
+}
+
+#opcion_mayuscula  #opcion_signo{
+  margin-left: 30px;
+}
+label{
+  font-size: 1.2rem;
+}
+/*Abarca todo menos nuestro menu de navegacion*/
+main{
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.form_radio{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+}
+#respuesta{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*estilo de botones pequeños*/
+.buttons{
+  display: flex;
+  flex-direction: row;
+  gap:20px;
+  justify-content: center;
+}

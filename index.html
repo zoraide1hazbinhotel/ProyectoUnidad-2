@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Creacion del titulo mezclando nuestros nombres-->
+  <title>TEYEZO</title>
+  <link href="static/style/style.css" rel="stylesheet" type="text/css" />
+  <script defer src="https://app.embed.im/snow.js"></script>
+</head>
+
+<body>
+  <!--// CONTENIDO DE PRESENTACION-->
+  <div class="contenido_titulo">
+    <div id="contenido_titulo_left">
+      <h1 id="titulo_teyezo">Bienvenidos a TEYEZO,</h1>
+      <p id="parrafo_titulo"><b>CREA TU CONTRASEÑA RAPIDO Y FACIL DE RECORDAR</b></p>
+    </div>
+    <!--//AFIRMAMOS SEGURIDAD DE PAGINA-->
+    <div id="contenido_titulo_right">
+      <span>Somos <span style="margin-left: 5px;"><a href="#">100% seguros</a></span></span>
+      <br><br>
+      <!--Creacion de links -->
+      <a class="link_titulo" href="#">CONTACTO</a>
+      <a class="link_titulo" href="#">AYUDA</a>
+      <a class="link_titulo" href="#">MANUAL</a>
+      <a class="link_titulo" href="#">NOVEDADES</a>
+    </div>
+    <!--//SUBTITULO DE DE LA PAGINA-->
+  </div>
+  <h2 class="sub_titulo">No te mates creando una contraseña, TEYEZO te crea una contraseña apartir de una SOLA palabra y
+    adios problema.
+  </h2>
+  <main>
+    <div id="buscador">
+      <div id="frase_buscador">
+        <!--Bloque para ingresar la palabra a cifrar-->
+        <label for="input_palabraInicial">Ingrese la palabra:</label>
+        <input id="input_palabraInicial" type="text" name="crear contraseña"
+          title="La palabra puede contener cualquier letra del abecedario menos la -ñ-. " required>
+      </div>
+      <!--Bloque para ingresar el numero para mover las letras del cifrado-->
+      <div id="contraseña">
+        <label for="input_nuevaContraseña">Numero mágico:</label>
+        <input id="input_nuevaContraseña" type="text" name="crear contraseña" required>
+      </div>
+    </div>
+    <!--Bloque donde se mostrara el resultado del cifrado-->
+    <div id="respuesta">
+
+    </div>
+    <div class="buttons">
+      <!--Boton para la creacion del cifrado-->
+      <button id="button_buscar">Crear</button>
+      <!--Boton para la creacion de desencriptar-->
+      <button id="button_desencriptar">Desencriptar</button>
+
+    </div>
+
+    <form class="form_radio">
+      <div>
+        <!--Creacion de opciones para añadir al cifrado-->
+        <input name="opciones" type="checkbox" class="opciones" id="opcion_numero" name="">
+        <label for="opcion_numero"> numeros</label>
+      </div>
+      <div>
+        <input name="opciones" type="checkbox" class="opciones" id="opcion_mayuscula">
+        <label for="opcion_mayuscula">mayusculas</label>
+      </div>
+      <div>
+        <input name="opciones" type="checkbox" class="opciones" id="opcion_signos">
+        <label for="opcion_signos">signos</label>
+      </div>
+    </form>
+    <!--//CONTENIDO FELICITACIONES AL CREAR SU CONTRASEÑA-->
+    <div class="contenido_gatito">
+      <div id="mensaje_gatito">
+        <h3 id="titulo_gatito">Genial, ya tenies tu contraseña nueva y segura lista para usar</h3>
+      </div>
+      <div>
+        <img src="https://i.pinimg.com/564x/f2/33/bd/f233bdaa50e2162a4da9aacaa1d6775e.jpg" id="el_gatito">
+      </div>
+    </div>
+    <!--//PROPAGANDA - PUBLICIDAD-->
+    <div class="abajo">
+      <a href="https://www.coca-cola.com.pe/marcas/fanta" target="_blank">
+        <img src="static/images/fanta.jpeg" alt="propaganda" class="propaganda">
+      </a>
+      <a href="https://superclean.com/" target="_blank">
+        <img src="static/images/lejia.jpeg" alt="propaganda" class="propaganda">
+      </a>
+
+    </div>
+
+  </main>
+
+
+  <script type="module" src="static/scrip/script.js"></script>
+</body>
+
+</html>
